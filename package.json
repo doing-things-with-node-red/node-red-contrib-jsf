@@ -1,0 +1,19 @@
+{
+  "name": "node-red-contrib-jsf",
+  "version": "1.0.0",
+  "description": "",
+  "node-red": {
+    "nodes": {
+      "jsf": "jsf.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymedlop/node-red-contrib-faker.git"
+  },
+  "author": "Yeray Medina López",
+  "license": "MIT",
+  "dependencies": {
+    "json-schema-faker": "^0.4.6"
+  }
+}
