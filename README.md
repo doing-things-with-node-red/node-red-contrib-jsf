@@ -1,3 +1,5 @@
+[![dependencies Status](https://david-dm.org/ymedlop/node-red-contrib-jsf/status.svg)](https://david-dm.org/ymedlop/node-red-contrib-jsf)
+
 node-red-contrib-jsf
 ===================
 
