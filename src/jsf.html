@@ -25,32 +25,32 @@
 <script type="text/javascript">
 
     RED.nodes.registerType('jsf', {
-        color: "rgb(255, 36, 4)",
+        color: 'rgb(255, 36, 4)',
         category: 'function',
-        paletteLabel: "jsf",
+        paletteLabel: 'jsf',
         defaults: {
             name: {
-                value: ""
+                value: ''
             },
             field: {
-                value: "payload"
+                value: 'payload'
             },
             fieldType: {
-                value: "msg"
+                value: 'msg'
             },
             lang: {
-                value: "en"
+                value: 'en'
             }
         },
         inputs: 1,
         outputs: 1,
-        icon: "template.png",
-        label: "jsf",
+        icon: 'template.png',
+        label: () => this.name || 'jsf',
         oneditprepare: () => {
-            $("#node-input-field").typedInput({
+            $('#node-input-field').typedInput({
                 default: 'msg',
                 types: ['msg','flow','global'],
-                typeField: $("#node-input-fieldType")
+                typeField: $('#node-input-fieldType')
             });
             const langs = [
                 'az',
