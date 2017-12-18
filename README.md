@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/ymedlop/node-red-contrib-jsf/tree/master.svg?style=svg)](https://circleci.com/gh/ymedlop/node-red-contrib-jsf/tree/master)
 [![NPM version](https://badge.fury.io/js/node-red-contrib-jsf.svg)](http://badge.fury.io/js/node-red-contrib-jsf)
 [![dependencies Status](https://david-dm.org/ymedlop/node-red-contrib-jsf/status.svg)](https://david-dm.org/ymedlop/node-red-contrib-jsf)
 
