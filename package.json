@@ -11,8 +11,8 @@
     }
   },
   "scripts": {
-    "lint": "eslint src/*.js || true",
-    "test": "npm run lint"
+    "ci-publish": "ci-publish",
+    "lint": "eslint src/*.js || true"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
+    "ci-publish": "^1.3.0",
     "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0"
