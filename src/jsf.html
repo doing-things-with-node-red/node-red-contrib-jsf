@@ -1,0 +1,103 @@
+<script type="text/x-red" data-template-name="jsf">
+
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="node-red:common.label.name"></span></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]node-red:common.label.name">
+    </div>
+
+     <div class="form-row">
+        <label for="node-input-lang"><i class="fa fa-code"></i> <span data-i18n="jsf.label.lang"></span></label>
+        <select id="node-input-lang" style="width:180px;" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-field"><i class="fa fa-edit"></i> <span data-i18n="node-red:template.label.property"></span></label>
+        <input type="text" id="node-input-field" placeholder="payload" style="width:275px;">
+        <input type="hidden" id="node-input-fieldType">
+    </div>
+
+</script>
+
+<script type="text/x-red" data-help-name="jsf">
+    TODO:
+</script>
+
+<script type="text/javascript">
+
+    RED.nodes.registerType('jsf', {
+        color: "rgb(255, 36, 4)",
+        category: 'function',
+        paletteLabel: "jsf",
+        defaults: {
+            name: {
+                value: ""
+            },
+            field: {
+                value: "payload"
+            },
+            fieldType: {
+                value: "msg"
+            },
+            lang: {
+                value: "en"
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "template.png",
+        label: "jsf",
+        oneditprepare: () => {
+            $("#node-input-field").typedInput({
+                default: 'msg',
+                types: ['msg','flow','global'],
+                typeField: $("#node-input-fieldType")
+            });
+            const langs = [
+                'az',
+                'cz',
+                'de',
+                'de_AT',
+                'de_CH',
+                'en',
+                'en_AU',
+                'en_BORK',
+                'en_CA',
+                'en_GB',
+                'en_IE',
+                'en_IND',
+                'en_US',
+                'en_au_ocker',
+                'es',
+                'es_MX',
+                'fa',
+                'fr',
+                'fr_CA',
+                'ge',
+                'id_ID',
+                'it',
+                'ja',
+                'ko',
+                'nb_NO',
+                'nep',
+                'nl',
+                'pl',
+                'pt_BR',
+                'ru',
+                'sk',
+                'sv',
+                'tr',
+                'uk',
+                'vi',
+                'zh_CN',
+                'zh_TW'
+            ];
+            $.each(langs, (i, item) => {
+                $('#node-input-lang').append($('<option>', {
+                    value: item,
+                    text : item
+                }));
+            });
+        }
+    });
+
+</script>
