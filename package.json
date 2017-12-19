@@ -1,7 +1,7 @@
 {
   "name": "node-red-contrib-jsf",
-  "version": "1.0.0-rc03",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Node-RED node allowing to use json-schema-faker",
   "keywords": [
     "node-red"
   ],

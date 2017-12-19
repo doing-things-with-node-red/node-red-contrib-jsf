@@ -19,7 +19,15 @@
 </script>
 
 <script type="text/x-red" data-help-name="jsf">
-    TODO:
+
+    <p>Use JSON Schema along with fake generators to provide consistent and meaningful fake data for your system.</p>
+
+    <p>Uses the <i><a href="https://github.com/json-schema-faker/json-schema-faker" target="_new">json-schema-faker</a></i>
+    module</p>
+
+    Example flow
+    <pre>[{"id":"e56f1a2d.787bf8","type":"jsf","z":"f8b594b8.c317b8","name":"","field":"payload","fieldType":"msg","lang":"az","x":410,"y":60,"wires":[["15103ac0.294bc5"]]}]</pre>
+
 </script>
 
 <script type="text/javascript">
@@ -45,8 +53,11 @@
         inputs: 1,
         outputs: 1,
         icon: 'template.png',
-        label: () => this.name || 'jsf',
-        oneditprepare: () => {
+        label: function() {
+            console.log('wark', this)
+            return this.name || 'jsf';
+        },
+        oneditprepare: function() {
             $('#node-input-field').typedInput({
                 default: 'msg',
                 types: ['msg','flow','global'],
