@@ -18,6 +18,12 @@ It's  a [**Node-RED**](http://nodered.org/) node allowing to use [json-schema-fa
 
 * [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker): JSON-Schema + fake data generators 
 
+## Example flow
+
+```json
+[{"id":"e56f1a2d.787bf8","type":"jsf","z":"f8b594b8.c317b8","name":"","field":"payload","fieldType":"msg","lang":"az","x":410,"y":60,"wires":[["15103ac0.294bc5"]]}]
+```
+
 License
 -------
 
