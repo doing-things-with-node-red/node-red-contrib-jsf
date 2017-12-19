@@ -1,6 +1,11 @@
-[![CircleCI](https://circleci.com/gh/ymedlop/node-red-contrib-jsf/tree/master.svg?style=svg)](https://circleci.com/gh/ymedlop/node-red-contrib-jsf/tree/master)
+[![CircleCI](https://img.shields.io/circleci/project/github/ymedlop/node-red-contrib-jsf.svg)](https://circleci.com/gh/ymedlop/node-red-contrib-jsf/tree/master)
 [![NPM version](https://badge.fury.io/js/node-red-contrib-jsf.svg)](http://badge.fury.io/js/node-red-contrib-jsf)
 [![dependencies Status](https://david-dm.org/ymedlop/node-red-contrib-jsf/status.svg)](https://david-dm.org/ymedlop/node-red-contrib-jsf)
+[![devDependencies Status](https://david-dm.org/ymedlop/node-red-contrib-jsf/dev-status.svg)](https://david-dm.org/ymedlop/node-red-contrib-jsf?type=dev)
+[![npm](https://img.shields.io/npm/dw/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/node-red-contrib-jsf)
+[![npm](https://img.shields.io/npm/dm/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/node-red-contrib-jsf)
+[![npm](https://img.shields.io/npm/dy/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/node-red-contrib-jsf)
+[![npm](https://img.shields.io/npm/dt/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/node-red-contrib-jsf)
 
 node-red-contrib-jsf
 ===================
