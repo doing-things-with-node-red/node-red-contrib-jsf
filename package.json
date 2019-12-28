@@ -21,13 +21,13 @@
   "author": "Yeray Medina López",
   "license": "MIT",
   "dependencies": {
-    "json-schema-faker": "^0.4.6"
+    "json-schema-faker": "0.4.6"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "ci-publish": "^1.3.0",
-    "eslint": "^5.12.0",
-    "eslint-config-airbnb": "^18.0.0",
-    "eslint-plugin-import": "^2.8.0"
+    "babel-eslint": "10.0.1",
+    "ci-publish": "1.3.0",
+    "eslint": "6.0.0",
+    "eslint-config-airbnb": "18.0.0",
+    "eslint-plugin-import": "2.8.0"
   }
 }
