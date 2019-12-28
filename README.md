@@ -1,18 +1,15 @@
-[![CircleCI](https://img.shields.io/circleci/project/github/ymedlop/node-red-contrib-jsf.svg)](https://circleci.com/gh/ymedlop/node-red-contrib-jsf/tree/master)
-[![NPM version](https://badge.fury.io/js/node-red-contrib-jsf.svg)](http://badge.fury.io/js/node-red-contrib-jsf)
-[![dependencies Status](https://david-dm.org/ymedlop/node-red-contrib-jsf/status.svg)](https://david-dm.org/ymedlop/node-red-contrib-jsf)
-[![devDependencies Status](https://david-dm.org/ymedlop/node-red-contrib-jsf/dev-status.svg)](https://david-dm.org/ymedlop/node-red-contrib-jsf?type=dev)
-[![npm](https://img.shields.io/npm/dw/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/node-red-contrib-jsf)
-[![npm](https://img.shields.io/npm/dm/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/node-red-contrib-jsf)
-[![npm](https://img.shields.io/npm/dy/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/node-red-contrib-jsf)
-[![npm](https://img.shields.io/npm/dt/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/node-red-contrib-jsf)
+[![Build Status](https://dev.azure.com/doing-things-with-node-red/node-red-contrib/_apis/build/status/node-red-contrib-jsf?branchName=master)](https://dev.azure.com/doing-things-with-node-red/node-red-contrib/_build/latest?definitionId=4&branchName=master)
+[![npm](https://img.shields.io/npm/dw/@doing-things-with-node-red/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/@doing-things-with-node-red/node-red-contrib-jsf)
+[![npm](https://img.shields.io/npm/dm/@doing-things-with-node-red/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/@doing-things-with-node-red/node-red-contrib-jsf)
+[![npm](https://img.shields.io/npm/dy/@doing-things-with-node-red/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/@doing-things-with-node-red/node-red-contrib-jsf)
+[![npm](https://img.shields.io/npm/dt/@doing-things-with-node-red/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/@doing-things-with-node-red/node-red-contrib-jsf)
 
 node-red-contrib-jsf
 ===================
 
 It's  a [**Node-RED**](http://nodered.org/) node allowing to use [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker) to provide consistent and meaningful fake data for your flow.
 
-[![EXAMPLE FLOW](https://i.imgur.com/DYCEosX.png)](https://i.imgur.com/DYCEosX.png) [![Greenkeeper badge](https://badges.greenkeeper.io/ymedlop/node-red-contrib-jsf.svg)](https://greenkeeper.io/)
+[![EXAMPLE FLOW](https://i.imgur.com/DYCEosX.png)](https://i.imgur.com/DYCEosX.png)
 
 ## Dependencies
 
