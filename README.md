@@ -1,4 +1,5 @@
 [![Build Status](https://dev.azure.com/doing-things-with-node-red/node-red-contrib/_apis/build/status/node-red-contrib-jsf?branchName=master)](https://dev.azure.com/doing-things-with-node-red/node-red-contrib/_build/latest?definitionId=4&branchName=master)
+[![Greenkeeper badge](https://badges.greenkeeper.io/doing-things-with-node-red/node-red-contrib-jsf.svg)](https://greenkeeper.io/)
 [![npm](https://img.shields.io/npm/dw/@doing-things-with-node-red/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/@doing-things-with-node-red/node-red-contrib-jsf)
 [![npm](https://img.shields.io/npm/dm/@doing-things-with-node-red/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/@doing-things-with-node-red/node-red-contrib-jsf)
 [![npm](https://img.shields.io/npm/dy/@doing-things-with-node-red/node-red-contrib-jsf.svg)](https://www.npmjs.com/package/@doing-things-with-node-red/node-red-contrib-jsf)
