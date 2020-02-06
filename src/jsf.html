@@ -1,5 +1,4 @@
 <script type="text/x-red" data-template-name="jsf">
-
     <div class="form-row">
         <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="node-red:common.label.name"></span></label>
         <input type="text" id="node-input-name" data-i18n="[placeholder]node-red:common.label.name">
@@ -7,7 +6,44 @@
 
      <div class="form-row">
         <label for="node-input-lang"><i class="fa fa-code"></i> <span data-i18n="jsf.label.lang"></span></label>
-        <select id="node-input-lang" style="width:180px;" />
+        <select id="node-input-lang" style="width:180px;">
+            <option value="az">az</option> 
+            <option value="cz">cz</option> 
+            <option value="de">de</option> 
+            <option value="de_AT">de_AT</option>
+            <option value="de_CH">de_CH</option>
+            <option value="en">en</option>
+            <option value="en_AU">en_AU</option>
+            <option value="en_BORK">en_BORK</option>
+            <option value="en_CA">en_CA</option>
+            <option value="en_GB">en_GB</option>
+            <option value="en_IE">en_IE</option>
+            <option value="en_IND">en_IND</option>
+            <option value="en_US">en_US</option>
+            <option value="en_au_ocker">en_au_ocker</option>
+            <option value="es">es</option>
+            <option value="es_MX">es_MX</option>
+            <option value="fa">fa</option>
+            <option value="fr">fr_CA</option>
+            <option value="ge">ge</option>
+            <option value="id_ID">id_ID</option>
+            <option value="it">it</option>
+            <option value="ja">ja</option>
+            <option value="ko">ko</option>
+            <option value="nb_NO">nb_NO</option>
+            <option value="nep">nep</option>
+            <option value="nl">nl</option>
+            <option value="pl">pl</option>
+            <option value="pt_BR">pt_BR</option>
+            <option value="ru">ru</option>
+            <option value="sk">sk</option>
+            <option value="sv">sv</option>
+            <option value="tr">tr</option>
+            <option value="uk">uk</option>
+            <option value="vi">vi</option>
+            <option value="zh_CN">zh_CN</option>
+            <option value="zh_TW">zh_TW</option>
+        </select>
     </div>
 
     <div class="form-row">
@@ -15,11 +51,9 @@
         <input type="text" id="node-input-field" placeholder="payload" style="width:275px;">
         <input type="hidden" id="node-input-fieldType">
     </div>
-
 </script>
 
 <script type="text/x-red" data-help-name="jsf">
-
     <p>Use JSON Schema along with fake generators to provide consistent and meaningful fake data for your system.</p>
 
     <p>Uses the <i><a href="https://github.com/json-schema-faker/json-schema-faker" target="_new">json-schema-faker</a></i>
@@ -27,11 +61,9 @@
 
     Example flow
     <pre>[{"id":"e56f1a2d.787bf8","type":"jsf","z":"f8b594b8.c317b8","name":"","field":"payload","fieldType":"msg","lang":"az","x":410,"y":60,"wires":[["15103ac0.294bc5"]]}]</pre>
-
 </script>
 
 <script type="text/javascript">
-
     RED.nodes.registerType('jsf', {
         color: 'rgb(255, 36, 4)',
         category: 'function',
@@ -54,7 +86,6 @@
         outputs: 1,
         icon: 'template.png',
         label: function() {
-            console.log('wark', this)
             return this.name || 'jsf';
         },
         oneditprepare: function() {
@@ -63,52 +94,6 @@
                 types: ['msg','flow','global'],
                 typeField: $('#node-input-fieldType')
             });
-            const langs = [
-                'az',
-                'cz',
-                'de',
-                'de_AT',
-                'de_CH',
-                'en',
-                'en_AU',
-                'en_BORK',
-                'en_CA',
-                'en_GB',
-                'en_IE',
-                'en_IND',
-                'en_US',
-                'en_au_ocker',
-                'es',
-                'es_MX',
-                'fa',
-                'fr',
-                'fr_CA',
-                'ge',
-                'id_ID',
-                'it',
-                'ja',
-                'ko',
-                'nb_NO',
-                'nep',
-                'nl',
-                'pl',
-                'pt_BR',
-                'ru',
-                'sk',
-                'sv',
-                'tr',
-                'uk',
-                'vi',
-                'zh_CN',
-                'zh_TW'
-            ];
-            $.each(langs, (i, item) => {
-                $('#node-input-lang').append($('<option>', {
-                    value: item,
-                    text : item
-                }));
-            });
         }
     });
-
 </script>
